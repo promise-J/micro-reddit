@@ -173,6 +173,8 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2021.1)
+      tzinfo (>= 1.0.0)
     web-console (4.1.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -210,7 +212,7 @@ DEPENDENCIES
   selenium-webdriver
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
-  tzinfo-data
+  tzinfo-data (~> 1.2019, >= 1.2019.2)
   web-console (>= 4.1.0)
   webdrivers
   webpacker (~> 5.0)
