@@ -4,12 +4,13 @@
 
 An app which allows users to register, then post articles and also comment other user's posts, emmulating the function of the well-known Reddit web page.
 
-This project let us practice creating models and their associations in order to get a full understanding of Active Record. The project itself is a CLI (Command Line Interface) of the Reddit blog.
+This project lets us practice model creation and their associations in order to get a full understanding of Active Record. The project itself is a CLI (Command Line Interface) of the Reddit blog.
 
 
 ## Built With
 *  Ruby
 *  Rails
+*  rubocop
 
 
 ## Getting Started
@@ -31,8 +32,12 @@ To get a local copy up and running follow these simple steps, then follow the in
 * Navigate to a directory of your choosing using the cd command
 * Run this command in your OS terminal: git clone git@github.com:promise-J/micro-reddit.git to get a copy of the project.
 * Navigate to the project's directory using the cd command.
-* Execute rails console to load the development environment.
+* Run  bundle install to install all the required gems needed for the project.
+* Since DB has already been created, you need to migrate to the DB telling the rails app to establish a connection to run
+* Execute rails console to load the development environment by running rails console or rails c for short.
 * Run User.all to see all the users in the database.
+* (optional: play around with the console by adding post and also comments for each post under various users)
+* End the rails console environment by running exit(1).
 
 
 ### Usage
